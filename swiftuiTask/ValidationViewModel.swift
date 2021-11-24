@@ -39,17 +39,6 @@ class validationViewModel: ObservableObject {
     }
     
     
-//    var isLoginComplete: Bool {
-//        if !isPasswordValid() ||
-//        !isEmailValid() {
-//            return false
-//        }
-//        return true
-//    }
-    
-//    // MARK: - Validation Prompt Strings
-//
-//
 
     var emailPrompt: String {
         if isEmailValid(email) {
